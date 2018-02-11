@@ -2,13 +2,13 @@ body {
   font-family: "思源黑体","微软雅黑","冬青黑体", sans-serif;
   counter-reset: heading;
   margin: 0;
-  padding: 1em 0.5em 0.5em 0.5em;
+  padding: 0em 0em 1em 0em;
 
 }
 
 .main {
   margin: 0 auto;
-  max-width: 42em;
+  max-width: 61.8%;
 }
 
 img {

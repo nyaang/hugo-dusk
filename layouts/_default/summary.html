@@ -1,8 +1,11 @@
 <article class="post-preview">
 
   <header>
-    <h2 class="title"> <a href='{{ .Permalink }}'> {{ .Title }}</a> · {{ .Date.Format "2006-01-02" }}  </h2>
-    {{ partial "tags.html" . }}
+    <h2 class="title"> <a href='{{ .Permalink }}'> {{ .Title }}</a> 
+      <span class="separator"> &middot;</span> {{ .Date.Format "2006-01-02" }}<span class="separator"> &middot;</span>
+      {{ partial "tags.html" . }} 
+    </h2>
+    <hr ></hr>
   </header>
 
 </article>

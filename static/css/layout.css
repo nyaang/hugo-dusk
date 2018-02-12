@@ -236,11 +236,6 @@ th, td {
   margin-top: 1em;
 }
 
-span {
-  font: 1em Arial;
-  display: inline-block;
-  transform: rotate(180deg);
-}
 .poweredby {
   font-size: smaller;
   text-align: center;

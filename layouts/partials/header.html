@@ -13,12 +13,17 @@
     <div class="siteTitle">
       <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
     </div> <!--siteTitle-->
-
     {{ $currentPage := . }}
     {{ range .Site.Menus.main }}
     <a class="nav-item{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}"><div class="nav-item-title">{{ .Name }}</div></a>
     {{ end }}
 
+    <a class="nav-item" href="{{ .Site.RSSLink }}" ><div class="nav-item-title">RSS</div></a>
+
+    {{with .Site.Params.github}}
+    <a class="nav-item" href="https://github.com/{{.}}"><div class="nav-item-title">Github</div></a>
+    {{end}} 
+    
   </nav>
 </div>
 

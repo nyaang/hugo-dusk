@@ -1,7 +1,7 @@
 <div class="content-item">
-    <a href="{{ .Permalink }}">
-    <div class="post-list"> <h3 class="title"> {{ .Title }} </h3> </div>
-    </a>
-    {{ partial "tags.html" . }}
-    <div class="date"> {{ .Date.Format "2006-01-02" }} </div>
+        <a href="{{ .Permalink }}" style="color:#99cc66"> {{ .Title }} </a>
+        <span class="separator"> &middot;</span>
+        {{ .Date.Format "2006-01-02" }}
+        <span class="separator"> &middot;</span>
+        {{ partial "tags.html" . }}
 </div>

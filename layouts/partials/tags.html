@@ -1,5 +1,5 @@
     {{ range .Params.tags }}
       <div class="tag">
-        <a href="/tags/{{ . | urlize }}" style="color:#99cc66">{{.}}</a>
+        <a href="/tags/{{ . | urlize }}" style="color:#99cc66;background:rgba(54,53,50,0.3)">{{.}}</a>
       </div>
     {{ end }}

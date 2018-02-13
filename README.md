@@ -24,22 +24,24 @@ $ git clone https://github.com/gyorb/hugo-dusk
 
 ## Configuration
 
-Example configuration:
+My configuration:
 
 ~~~~toml
 baseurl = "/"
-title = "My site."
-copyright = "Copyright (c) 2017, all rights reserved."
+title = "Yang's Blog"
+copyright = "2018, Yang."
 canonifyurls = true
-languageCode = "en-US"
+hasCJKLanguage=true
+summaryLength=20
+languageCode = "zh-cn"
 paginate = 3
 theme = "hugo-dusk"
 
 googleAnalytics = ""
-disqusShortname = ""
+disqusShortname = "yang"
 
 [author]
-  name = ""
+  name = "yang"
 
 SectionPagesMenu = "main"
 
@@ -65,11 +67,11 @@ pygmentsCodeFences = true
   description = "Personal blog."
 
 [params]
-  github = "github id"
-  gitlab = "gitlab id"
-  twitter = "twitter id"
-  linkedin = "linkedin id"
-  email = "myemail"
+  github = "nyaang"
+  #gitlab = "gitlab id"
+  #twitter = "twitter id"
+  #linkedin = "linkedin id"
+  #email = "myemail"
 
 [params.colors]
   # hugo-dusk colors

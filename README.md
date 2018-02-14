@@ -38,10 +38,10 @@ paginate = 3
 theme = "hugo-dusk"
 
 googleAnalytics = ""
-disqusShortname = "yang"
+disqusShortname = "yang-cat"
 
 [author]
-  name = "yang"
+  name = "Yang"
 
 SectionPagesMenu = "main"
 
